@@ -65,17 +65,20 @@ p {
     .card__button {
         width: 150px;
         height: 50px;
+        text-decoration: none;
         margin-top: auto;
-        color: transparent;
         background-color: #f2f2f2;
         border: 2px solid #f2f2f2;
         border-radius: 32px;
         font-family: 'Lexend Deca', sans-serif;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .card__button:hover {
-        cursor: pointer;
-        color: white;
+        color: #f2f2f2;
         background-color: transparent; 
     }
     .card__button--sedan  {
